@@ -21,7 +21,6 @@ This project analyzes user activity data from the ontum platform. The dataset co
 
 
 ## 📊 Analysis & Visualizations
-## Data Analysis Highlights
 
 - **Null Value Imputation**
   - Identified and imputed missing values in `curriculum`, `semester`, `lang`, `gender`, and `city`.
