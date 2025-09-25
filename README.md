@@ -54,19 +54,23 @@ This project analyzes user activity data from the ontum platform. The dataset co
 
 
 ## 💡 Conclusion
+
 This analysis provides actionable insights into:
-•	Improving curriculum tagging accuracy.
-•	Optimizing the platform for mobile-first usage.
-•	Supporting regional languages alongside English.
-•	Leveraging state-wise adoption patterns for targeted interventions.
+
+- 🎯 **Improving curriculum tagging accuracy**  
+- 📱 **Optimizing the platform for mobile-first usage**  
+- 🌐 **Supporting regional languages alongside English**  
+- 🗺️ **Leveraging state-wise adoption patterns for targeted interventions**  
+
 
 
 ## 📷 Sample Visualizations
-•	📊 Pie Chart: Top 5 States + Others by User Percentage
-•	🌍 Countplot: State vs Language Distribution
-•	📚 Curriculum vs Lesson Name Mapping
-•	📱 Device Category & Mobile Brand Distribution
-•	📆 User Activity by Day of Week & Hour
+
+- 📊 **Pie Chart**: Top 5 States + Others by User Percentage  
+- 🌍 **Countplot**: State vs Language Distribution  
+- 📚 **Curriculum vs Lesson Name Mapping**  
+- 📱 **Device Category & Mobile Brand Distribution**  
+- 📆 **User Activity by Day of Week & Hour**  
 
 
 
