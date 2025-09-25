@@ -8,31 +8,40 @@ This project analyzes user activity data from the ontum platform. The dataset co
 
 ## 📂 Dataset (summary)
 
-Total rows: 666,748
+| Category          | Columns                                                                 |
+|-------------------|-------------------------------------------------------------------------|
+| **Total Rows**    | 666,748                                                                 |
+| **User Info**     | user_pseudo_id, id, gender                                              |
+| **Session Data**  | session, sync_date, date, hour, day_of_week                             |
+| **Academic Info** | curriculum, grade, lesson_name, semester                                |
+| **System Info**   | app_mode, custom_curriculum, hostname, host                             |
+| **Location**      | city, state, country                                                    |
+| **Device Info**   | category, mobile_brand_name, operating_system                           |
 
-User Information: user_pseudo_id, id, gender
-Session Data: session, sync_date, date, hour, day_of_week
-Academic Context: curriculum, grade, lesson_name, semester
-System Info: app_mode, custom_curriculum, hostname, host
-Location: city, state, country
-Device Info: category, mobile_brand_name, operating_system
 
 
 ## 📊 Analysis & Visualizations
-•	Null Value Imputation
-o	Identified and imputed missing values in curriculum, semester, lang, gender, and city.
-o	Applied techniques like constant imputation, conditional replacement, and analysis-based filling.
-•	State-wise User Distribution
-o	Top states contributing to user activity: Karnataka, West Bengal, Delhi, Maharashtra, and Goa.
-o	Remaining states grouped under “Others”.
-•	Curriculum Usage
-o	Explored relationships between lesson_name and curriculum.
-o	Used conditional logic to impute missing curriculum values.
-•	Language Distribution
-o	Countplots and crosstabs between state and lang show regional language adoption.
-•	Device & Platform Trends
-o	Breakdown of users across mobile vs desktop.
-o	Operating system and mobile brand analysis for understanding tech adoption.
+## Data Analysis Highlights
+
+- **Null Value Imputation**
+  - Identified and imputed missing values in `curriculum`, `semester`, `lang`, `gender`, and `city`.
+  - Applied techniques like constant imputation, conditional replacement, and analysis-based filling.
+
+- **State-wise User Distribution**
+  - Top states contributing to user activity: *Karnataka, West Bengal, Delhi, Maharashtra, and Goa*.
+  - Remaining states grouped under **"Others"**.
+
+- **Curriculum Usage**
+  - Explored relationships between `lesson_name` and `curriculum`.
+  - Used conditional logic to impute missing `curriculum` values.
+
+- **Language Distribution**
+  - Countplots and crosstabs between `state` and `lang` show regional language adoption.
+
+- **Device & Platform Trends**
+  - Breakdown of users across **mobile vs desktop**.
+  - Analysis of **operating system** and **mobile brand** for understanding tech adoption.
+
 
 
 ## 📈 Key Insights
